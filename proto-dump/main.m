@@ -6,13 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ProtoDump/ProtoDump.h>
 
 #import "CLUArgumentParser.h"
 #import "CLULogging.h"
-#import "PDDependencyProcessor.h"
-#import "PDProtoFile.h"
-#import "PDProtoFileExtractor.h"
-
 
 static int extractProtobufDescriptors(NSString *inputPath, NSString *outputPath)
 {

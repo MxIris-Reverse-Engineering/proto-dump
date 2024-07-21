@@ -7,34 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57282FCD1824C36900C52849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57282FCC1824C36900C52849 /* Foundation.framework */; };
 		57282FD01824C36900C52849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57282FCF1824C36900C52849 /* main.m */; };
-		57282FDC1824CCA000C52849 /* PDProtobufInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57282FDB1824CCA000C52849 /* PDProtobufInputStream.mm */; };
-		57294CBE1824D8230080F265 /* PDProtoFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57294CBD1824D8230080F265 /* PDProtoFile.mm */; };
-		57294CC11824DA250080F265 /* PDProtoFileExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294CC01824DA250080F265 /* PDProtoFileExtractor.m */; };
-		57356582182B460A00B5EC66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57356581182B460A00B5EC66 /* XCTest.framework */; };
 		57356588182B460A00B5EC66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57356586182B460A00B5EC66 /* InfoPlist.strings */; };
 		5735658A182B460A00B5EC66 /* ProtoDumpUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57356589182B460A00B5EC66 /* ProtoDumpUnitTests.m */; };
 		57356594182B46C800B5EC66 /* addressbook.input in Resources */ = {isa = PBXBuildFile; fileRef = 57356592182B46C800B5EC66 /* addressbook.input */; };
 		57356595182B46C800B5EC66 /* addressbook.proto in Resources */ = {isa = PBXBuildFile; fileRef = 57356593182B46C800B5EC66 /* addressbook.proto */; };
-		57356596182B472400B5EC66 /* PDDependencyProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A56497182AFA7600E33C65 /* PDDependencyProcessor.m */; };
-		57356597182B472400B5EC66 /* PDProtobufInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57282FDB1824CCA000C52849 /* PDProtobufInputStream.mm */; };
-		57356598182B472400B5EC66 /* PDProtoFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57294CBD1824D8230080F265 /* PDProtoFile.mm */; };
-		57356599182B472400B5EC66 /* PDProtoFileExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294CC01824DA250080F265 /* PDProtoFileExtractor.m */; };
-		5735659A182B480500B5EC66 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A56492182AE9CA00E33C65 /* libprotobuf.a */; };
 		578B52A2182A296200820C5F /* libCommand Line Utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578B529F182A294A00820C5F /* libCommand Line Utilities.a */; };
-		57A56493182AE9CA00E33C65 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A56492182AE9CA00E33C65 /* libprotobuf.a */; };
-		57A56498182AFA7600E33C65 /* PDDependencyProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A56497182AFA7600E33C65 /* PDDependencyProcessor.m */; };
+		E9405EB72C4CF13800598CE8 /* ProtoDump.h in Headers */ = {isa = PBXBuildFile; fileRef = E9405EB62C4CF13800598CE8 /* ProtoDump.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9405EBB2C4CF14000598CE8 /* PDProtobufInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 57282FDA1824CCA000C52849 /* PDProtobufInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9405EBC2C4CF14000598CE8 /* PDProtoFile+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A5649C182B070D00E33C65 /* PDProtoFile+Private.h */; };
+		E9405EBD2C4CF14000598CE8 /* PDProtoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 57294CBC1824D8230080F265 /* PDProtoFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9405EBE2C4CF14000598CE8 /* PDProtoFileExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 57294CBF1824DA250080F265 /* PDProtoFileExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9405EBF2C4CF14000598CE8 /* PDDependencyProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A56496182AFA7600E33C65 /* PDDependencyProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9405EC02C4CF14000598CE8 /* PDDependencyProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A56497182AFA7600E33C65 /* PDDependencyProcessor.m */; };
+		E9405EC12C4CF14000598CE8 /* PDProtoFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57294CBD1824D8230080F265 /* PDProtoFile.mm */; };
+		E9405EC22C4CF14000598CE8 /* PDProtoFileExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57294CC01824DA250080F265 /* PDProtoFileExtractor.m */; };
+		E9405EC32C4CF14000598CE8 /* PDProtobufInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57282FDB1824CCA000C52849 /* PDProtobufInputStream.mm */; };
+		E97B40742C4CF3490053F4ED /* ProtoDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9405EB42C4CF13800598CE8 /* ProtoDump.framework */; };
+		E97B40752C4CF3490053F4ED /* ProtoDump.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9405EB42C4CF13800598CE8 /* ProtoDump.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E97B40792C4CF4150053F4ED /* ProtoDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9405EB42C4CF13800598CE8 /* ProtoDump.framework */; };
+		E97B407A2C4CF4150053F4ED /* ProtoDump.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9405EB42C4CF13800598CE8 /* ProtoDump.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E97B407E2C4CF47B0053F4ED /* TSPersistence.input in Resources */ = {isa = PBXBuildFile; fileRef = E9405DF82C4CE43100598CE8 /* TSPersistence.input */; };
+		E97B42972C4D05050053F4ED /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E97B42962C4D05050053F4ED /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5735658C182B460A00B5EC66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57282FC11824C36900C52849 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57282FC81824C36900C52849;
-			remoteInfo = "proto-dump";
-		};
 		578B529E182A294A00820C5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 578B529A182A294A00820C5F /* Command Line Utilities.xcodeproj */;
@@ -49,6 +46,20 @@
 			remoteGlobalIDString = 575FAE6E15D77D5F00D0447A;
 			remoteInfo = "Command Line Utilities";
 		};
+		E97B40762C4CF3490053F4ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57282FC11824C36900C52849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9405EB32C4CF13800598CE8;
+			remoteInfo = ProtoDump;
+		};
+		E97B407B2C4CF4150053F4ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57282FC11824C36900C52849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9405EB32C4CF13800598CE8;
+			remoteInfo = ProtoDump;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +71,28 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E97B40782C4CF3490053F4ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E97B40752C4CF3490053F4ED /* ProtoDump.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97B407D2C4CF4150053F4ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E97B407A2C4CF4150053F4ED /* ProtoDump.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -86,10 +119,277 @@
 		578B52A3182A29BE00820C5F /* CLUArgumentParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLUArgumentParser.h; path = "Externals/CLU/Command Line Utilities/CLUArgumentParser.h"; sourceTree = "<group>"; };
 		578B52A4182A29BE00820C5F /* CLULogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLULogging.h; path = "Externals/CLU/Command Line Utilities/CLULogging.h"; sourceTree = "<group>"; };
 		578B52A5182A29BE00820C5F /* CLUOptionDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLUOptionDefinition.h; path = "Externals/CLU/Command Line Utilities/CLUOptionDefinition.h"; sourceTree = "<group>"; };
-		57A56492182AE9CA00E33C65 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = Externals/Protobuf/prebuilt/lib/libprotobuf.a; sourceTree = "<group>"; };
 		57A56496182AFA7600E33C65 /* PDDependencyProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDDependencyProcessor.h; sourceTree = "<group>"; };
 		57A56497182AFA7600E33C65 /* PDDependencyProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDDependencyProcessor.m; sourceTree = "<group>"; };
 		57A5649C182B070D00E33C65 /* PDProtoFile+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDProtoFile+Private.h"; sourceTree = "<group>"; };
+		E9405CEF2C4CDFB300598CE8 /* libprotobuf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprotobuf.dylib; path = Externals/Protobuf/prebuilt/lib/libprotobuf.dylib; sourceTree = "<group>"; };
+		E9405CF32C4CE21000598CE8 /* libabsl_random_distributions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_distributions.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_distributions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CF42C4CE21000598CE8 /* libabsl_bad_variant_access.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_variant_access.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_bad_variant_access.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CF52C4CE21000598CE8 /* libabsl_cord_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cord_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_cord_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CF62C4CE21000598CE8 /* libabsl_hashtablez_sampler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_hashtablez_sampler.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_hashtablez_sampler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CF72C4CE21000598CE8 /* libabsl_log_severity.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_severity.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_severity.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CF82C4CE21000598CE8 /* libabsl_low_level_hash.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_low_level_hash.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_low_level_hash.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CF92C4CE21000598CE8 /* libabsl_log_internal_check_op.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_check_op.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_check_op.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CFA2C4CE21000598CE8 /* libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CFB2C4CE21000598CE8 /* libabsl_cordz_handle.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_handle.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_cordz_handle.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CFC2C4CE21000598CE8 /* libabsl_strings_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strings_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_strings_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CFD2C4CE21000598CE8 /* libabsl_log_initialize.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_initialize.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_initialize.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CFE2C4CE21000598CE8 /* libabsl_failure_signal_handler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_failure_signal_handler.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_failure_signal_handler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405CFF2C4CE21000598CE8 /* libabsl_int128.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_int128.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_int128.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D002C4CE21000598CE8 /* libabsl_random_internal_platform.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_platform.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_platform.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D012C4CE21000598CE8 /* libabsl_spinlock_wait.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_spinlock_wait.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_spinlock_wait.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D022C4CE21000598CE8 /* libabsl_cordz_info.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_info.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_cordz_info.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D032C4CE21000598CE8 /* libabsl_bad_any_cast_impl.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_any_cast_impl.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_bad_any_cast_impl.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D042C4CE21000598CE8 /* libabsl_cord.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cord.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_cord.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D052C4CE21000598CE8 /* libabsl_base.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_base.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_base.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D062C4CE21000598CE8 /* libabsl_log_internal_proto.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_proto.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_proto.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D072C4CE21000598CE8 /* libabsl_log_sink.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_sink.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_sink.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D082C4CE21000598CE8 /* libabsl_periodic_sampler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_periodic_sampler.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_periodic_sampler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D092C4CE21000598CE8 /* libabsl_str_format_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_str_format_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_str_format_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D0A2C4CE21000598CE8 /* libabsl_synchronization.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_synchronization.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_synchronization.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D0B2C4CE21000598CE8 /* libabsl_random_internal_randen.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_randen.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D0C2C4CE21000598CE8 /* libabsl_flags_commandlineflag.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_commandlineflag.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_commandlineflag.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D0D2C4CE21000598CE8 /* libabsl_leak_check.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_leak_check.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_leak_check.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D0E2C4CE21000598CE8 /* libabsl_flags_private_handle_accessor.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_private_handle_accessor.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_private_handle_accessor.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D0F2C4CE21000598CE8 /* libabsl_time.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_time.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_time.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D102C4CE21000598CE8 /* libabsl_civil_time.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_civil_time.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_civil_time.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D112C4CE21000598CE8 /* libabsl_flags_reflection.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_reflection.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_reflection.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D122C4CE21000598CE8 /* libabsl_city.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_city.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_city.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D132C4CE21000598CE8 /* libabsl_raw_logging_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_raw_logging_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_raw_logging_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D142C4CE21000598CE8 /* libabsl_random_internal_seed_material.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_seed_material.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_seed_material.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D152C4CE21000598CE8 /* libabsl_string_view.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_string_view.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_string_view.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D162C4CE21000598CE8 /* libabsl_malloc_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_malloc_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_malloc_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D172C4CE21000598CE8 /* libabsl_random_internal_pool_urbg.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_pool_urbg.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_pool_urbg.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D182C4CE21000598CE8 /* libabsl_log_internal_message.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_message.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_message.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D192C4CE21000598CE8 /* libabsl_log_internal_log_sink_set.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_log_sink_set.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_log_sink_set.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D1A2C4CE21000598CE8 /* libabsl_demangle_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_demangle_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_demangle_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D1B2C4CE21000598CE8 /* libabsl_random_seed_gen_exception.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_seed_gen_exception.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_seed_gen_exception.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D1C2C4CE21000598CE8 /* libabsl_strerror.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strerror.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_strerror.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D1D2C4CE21000598CE8 /* libabsl_examine_stack.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_examine_stack.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_examine_stack.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D1E2C4CE21100598CE8 /* libabsl_debugging_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_debugging_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_debugging_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D1F2C4CE21100598CE8 /* libabsl_time_zone.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_time_zone.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_time_zone.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D202C4CE21100598CE8 /* libabsl_vlog_config_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_vlog_config_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_vlog_config_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D212C4CE21100598CE8 /* libabsl_flags_commandlineflag_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_commandlineflag_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_commandlineflag_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D222C4CE21100598CE8 /* libabsl_stacktrace.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_stacktrace.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_stacktrace.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D232C4CE21100598CE8 /* libabsl_flags_usage.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_usage.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_usage.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D242C4CE21100598CE8 /* libabsl_random_internal_randen_hwaes.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_hwaes.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_randen_hwaes.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D252C4CE21100598CE8 /* libabsl_log_internal_format.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_format.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_format.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D262C4CE21100598CE8 /* libabsl_random_internal_randen_slow.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_slow.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_randen_slow.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D272C4CE21100598CE8 /* libabsl_crc_cord_state.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_cord_state.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_crc_cord_state.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D282C4CE21100598CE8 /* libabsl_log_globals.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_globals.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_globals.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D292C4CE21100598CE8 /* libabsl_cordz_sample_token.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_sample_token.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_cordz_sample_token.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D2A2C4CE21100598CE8 /* libabsl_crc_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_crc_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D2B2C4CE21100598CE8 /* libabsl_die_if_null.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_die_if_null.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_die_if_null.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D2C2C4CE21100598CE8 /* libabsl_log_internal_conditions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_conditions.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_conditions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D2D2C4CE21100598CE8 /* libabsl_hash.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_hash.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_hash.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D2E2C4CE21100598CE8 /* libabsl_cordz_functions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_functions.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_cordz_functions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D2F2C4CE21100598CE8 /* libabsl_log_flags.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_flags.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_flags.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D302C4CE21100598CE8 /* libabsl_flags_program_name.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_program_name.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_program_name.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D312C4CE21100598CE8 /* libabsl_flags_usage_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_usage_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_usage_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D322C4CE21100598CE8 /* libabsl_symbolize.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_symbolize.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_symbolize.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D332C4CE21100598CE8 /* libabsl_status.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_status.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_status.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D342C4CE21100598CE8 /* libabsl_flags_marshalling.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_marshalling.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_marshalling.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D352C4CE21100598CE8 /* libabsl_bad_optional_access.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_optional_access.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_bad_optional_access.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D362C4CE21100598CE8 /* libabsl_strings.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strings.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_strings.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D372C4CE21100598CE8 /* libabsl_exponential_biased.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_exponential_biased.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_exponential_biased.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D382C4CE21100598CE8 /* libabsl_graphcycles_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_graphcycles_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_graphcycles_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D392C4CE21100598CE8 /* libabsl_log_entry.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_entry.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_entry.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D3A2C4CE21100598CE8 /* libabsl_log_internal_fnmatch.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_fnmatch.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_fnmatch.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D3B2C4CE21100598CE8 /* libabsl_kernel_timeout_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_kernel_timeout_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_kernel_timeout_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D3C2C4CE21100598CE8 /* libabsl_flags_parse.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_parse.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_parse.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D3D2C4CE21100598CE8 /* libabsl_random_seed_sequences.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_seed_sequences.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_seed_sequences.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D3E2C4CE21100598CE8 /* libabsl_flags_config.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_config.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_config.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D3F2C4CE21100598CE8 /* libabsl_raw_hash_set.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_raw_hash_set.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_raw_hash_set.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D402C4CE21100598CE8 /* libabsl_log_internal_nullguard.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_nullguard.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_nullguard.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D412C4CE21100598CE8 /* libabsl_random_internal_distribution_test_util.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_distribution_test_util.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_random_internal_distribution_test_util.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D422C4CE21100598CE8 /* libabsl_scoped_mock_log.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_scoped_mock_log.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_scoped_mock_log.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D432C4CE21100598CE8 /* libabsl_throw_delegate.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_throw_delegate.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_throw_delegate.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D442C4CE21100598CE8 /* libabsl_log_internal_globals.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_globals.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_log_internal_globals.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D452C4CE21100598CE8 /* libabsl_crc32c.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc32c.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_crc32c.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D462C4CE21100598CE8 /* libabsl_scoped_set_env.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_scoped_set_env.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_scoped_set_env.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D472C4CE21100598CE8 /* libabsl_statusor.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_statusor.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_statusor.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D482C4CE21100598CE8 /* libabsl_flags_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_internal.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_flags_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405D492C4CE21100598CE8 /* libabsl_crc_cpu_detect.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_cpu_detect.2401.0.0.dylib; path = Externals/Protobuf/prebuilt/lib/libabsl_crc_cpu_detect.2401.0.0.dylib; sourceTree = "<group>"; };
+		E9405DF82C4CE43100598CE8 /* TSPersistence.input */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = TSPersistence.input; sourceTree = "<group>"; };
+		E9405EB42C4CF13800598CE8 /* ProtoDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProtoDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9405EB62C4CF13800598CE8 /* ProtoDump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoDump.h; sourceTree = "<group>"; };
+		E97B40832C4CFFE10053F4ED /* libabsl_flags_program_name.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_program_name.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_program_name.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40842C4CFFE10053F4ED /* libabsl_periodic_sampler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_periodic_sampler.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_periodic_sampler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40852C4CFFE10053F4ED /* libabsl_raw_logging_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_raw_logging_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_raw_logging_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40862C4CFFE10053F4ED /* libabsl_spinlock_wait.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_spinlock_wait.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_spinlock_wait.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40872C4CFFE10053F4ED /* libabsl_log_internal_check_op.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_check_op.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_check_op.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40882C4CFFE10053F4ED /* libabsl_throw_delegate.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_throw_delegate.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_throw_delegate.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40892C4CFFE10053F4ED /* libprotobuf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprotobuf.dylib; path = Externals/Protobuf/lib/libprotobuf.dylib; sourceTree = "<group>"; };
+		E97B408A2C4CFFE10053F4ED /* libabsl_vlog_config_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_vlog_config_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_vlog_config_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B408B2C4CFFE10053F4ED /* libabsl_debugging_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_debugging_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_debugging_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B408C2C4CFFE10053F4ED /* libabsl_leak_check.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_leak_check.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_leak_check.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B408D2C4CFFE10053F4ED /* libabsl_crc_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_crc_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B408E2C4CFFE10053F4ED /* libabsl_random_internal_distribution_test_util.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_distribution_test_util.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_distribution_test_util.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B408F2C4CFFE10053F4ED /* libabsl_log_internal_proto.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_proto.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_proto.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40902C4CFFE10053F4ED /* libabsl_log_internal_nullguard.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_nullguard.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_nullguard.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40912C4CFFE10053F4ED /* libabsl_time.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_time.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_time.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40922C4CFFE10053F4ED /* libabsl_flags_marshalling.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_marshalling.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_marshalling.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40932C4CFFE10053F4ED /* libabsl_stacktrace.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_stacktrace.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_stacktrace.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40942C4CFFE10053F4ED /* libabsl_log_entry.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_entry.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_entry.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40952C4CFFE10053F4ED /* libabsl_log_internal_message.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_message.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_message.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40962C4CFFE10053F4ED /* libabsl_cordz_functions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_functions.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_cordz_functions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40972C4CFFE10053F4ED /* libabsl_crc32c.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc32c.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_crc32c.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40982C4CFFE10053F4ED /* libabsl_scoped_set_env.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_scoped_set_env.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_scoped_set_env.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40992C4CFFE10053F4ED /* libabsl_status.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_status.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_status.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B409A2C4CFFE10053F4ED /* libabsl_flags_commandlineflag_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_commandlineflag_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_commandlineflag_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B409B2C4CFFE10053F4ED /* libabsl_log_initialize.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_initialize.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_initialize.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B409C2C4CFFE10053F4ED /* libabsl_low_level_hash.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_low_level_hash.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_low_level_hash.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B409D2C4CFFE10053F4ED /* libabsl_random_internal_seed_material.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_seed_material.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_seed_material.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B409E2C4CFFE10053F4ED /* libabsl_flags_private_handle_accessor.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_private_handle_accessor.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_private_handle_accessor.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B409F2C4CFFE10053F4ED /* libabsl_str_format_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_str_format_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_str_format_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A02C4CFFE10053F4ED /* libabsl_random_distributions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_distributions.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_distributions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A12C4CFFE10053F4ED /* libabsl_scoped_mock_log.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_scoped_mock_log.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_scoped_mock_log.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A22C4CFFE10053F4ED /* libabsl_failure_signal_handler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_failure_signal_handler.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_failure_signal_handler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A32C4CFFE10053F4ED /* libabsl_kernel_timeout_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_kernel_timeout_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_kernel_timeout_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A42C4CFFE10053F4ED /* libabsl_flags_parse.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_parse.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_parse.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A52C4CFFE10053F4ED /* libabsl_cordz_info.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_info.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_cordz_info.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A62C4CFFE10053F4ED /* libabsl_random_seed_gen_exception.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_seed_gen_exception.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_seed_gen_exception.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A72C4CFFE10053F4ED /* libabsl_random_internal_randen_hwaes.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_hwaes.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_randen_hwaes.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A82C4CFFE10053F4ED /* libabsl_cordz_handle.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_handle.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_cordz_handle.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40A92C4CFFE10053F4ED /* libabsl_flags_usage.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_usage.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_usage.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40AA2C4CFFE10053F4ED /* libabsl_exponential_biased.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_exponential_biased.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_exponential_biased.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40AB2C4CFFE10053F4ED /* libabsl_crc_cpu_detect.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_cpu_detect.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_crc_cpu_detect.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40AC2C4CFFE10053F4ED /* libabsl_flags_config.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_config.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_config.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40AD2C4CFFE10053F4ED /* libabsl_cordz_sample_token.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_sample_token.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_cordz_sample_token.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40AE2C4CFFE10053F4ED /* libabsl_flags_reflection.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_reflection.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_reflection.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40AF2C4CFFE10053F4ED /* libabsl_log_flags.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_flags.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_flags.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B02C4CFFE10053F4ED /* libabsl_cord_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cord_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_cord_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B12C4CFFE10053F4ED /* libabsl_log_internal_log_sink_set.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_log_sink_set.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_log_sink_set.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B22C4CFFE10053F4ED /* libabsl_malloc_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_malloc_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_malloc_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B32C4CFFE10053F4ED /* libabsl_random_internal_platform.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_platform.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_platform.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B42C4CFFE10053F4ED /* libabsl_string_view.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_string_view.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_string_view.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B52C4CFFE10053F4ED /* libabsl_random_internal_randen.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_randen.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B62C4CFFE10053F4ED /* libabsl_crc_cord_state.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_cord_state.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_crc_cord_state.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B72C4CFFE10053F4ED /* libabsl_log_internal_conditions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_conditions.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_conditions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B82C4CFFE10053F4ED /* libabsl_die_if_null.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_die_if_null.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_die_if_null.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40B92C4CFFE10053F4ED /* libabsl_hash.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_hash.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_hash.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40BA2C4CFFE20053F4ED /* libabsl_statusor.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_statusor.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_statusor.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40BB2C4CFFE20053F4ED /* libabsl_graphcycles_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_graphcycles_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_graphcycles_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40BC2C4CFFE20053F4ED /* libabsl_log_internal_globals.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_globals.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_globals.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40BD2C4CFFE20053F4ED /* libabsl_log_severity.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_severity.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_severity.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40BE2C4CFFE20053F4ED /* libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40BF2C4CFFE20053F4ED /* libabsl_city.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_city.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_city.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C02C4CFFE20053F4ED /* libabsl_log_internal_fnmatch.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_fnmatch.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_fnmatch.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C12C4CFFE20053F4ED /* libabsl_flags_commandlineflag.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_commandlineflag.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_commandlineflag.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C22C4CFFE20053F4ED /* libabsl_random_seed_sequences.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_seed_sequences.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_seed_sequences.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C32C4CFFE20053F4ED /* libabsl_flags_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C42C4CFFE20053F4ED /* libabsl_bad_variant_access.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_variant_access.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_bad_variant_access.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C52C4CFFE20053F4ED /* libabsl_raw_hash_set.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_raw_hash_set.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_raw_hash_set.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C62C4CFFE20053F4ED /* libabsl_random_internal_pool_urbg.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_pool_urbg.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_pool_urbg.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C72C4CFFE20053F4ED /* libabsl_int128.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_int128.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_int128.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C82C4CFFE20053F4ED /* libabsl_hashtablez_sampler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_hashtablez_sampler.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_hashtablez_sampler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40C92C4CFFE20053F4ED /* libabsl_random_internal_randen_slow.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_slow.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_random_internal_randen_slow.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40CA2C4CFFE20053F4ED /* libabsl_flags_usage_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_usage_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_flags_usage_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40CB2C4CFFE20053F4ED /* libabsl_strings.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strings.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_strings.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40CC2C4CFFE20053F4ED /* libabsl_log_globals.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_globals.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_globals.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40CD2C4CFFE20053F4ED /* libabsl_log_sink.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_sink.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_sink.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40CE2C4CFFE20053F4ED /* libabsl_bad_any_cast_impl.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_any_cast_impl.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_bad_any_cast_impl.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40CF2C4CFFE20053F4ED /* libabsl_cord.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cord.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_cord.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D02C4CFFE20053F4ED /* libabsl_log_internal_format.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_format.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_log_internal_format.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D12C4CFFE20053F4ED /* libabsl_strerror.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strerror.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_strerror.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D22C4CFFE20053F4ED /* libabsl_synchronization.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_synchronization.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_synchronization.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D32C4CFFE20053F4ED /* libabsl_time_zone.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_time_zone.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_time_zone.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D42C4CFFE20053F4ED /* libabsl_base.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_base.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_base.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D52C4CFFE20053F4ED /* libabsl_demangle_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_demangle_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_demangle_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D62C4CFFE20053F4ED /* libabsl_examine_stack.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_examine_stack.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_examine_stack.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D72C4CFFE20053F4ED /* libabsl_civil_time.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_civil_time.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_civil_time.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D82C4CFFE20053F4ED /* libabsl_bad_optional_access.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_optional_access.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_bad_optional_access.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40D92C4CFFE20053F4ED /* libabsl_strings_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strings_internal.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_strings_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B40DA2C4CFFE20053F4ED /* libabsl_symbolize.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_symbolize.2401.0.0.dylib; path = Externals/Protobuf/lib/libabsl_symbolize.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B418D2C4D03280053F4ED /* libprotobuf.27.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprotobuf.27.1.0.dylib; path = ../../../../../opt/homebrew/Cellar/protobuf/27.1/lib/libprotobuf.27.1.0.dylib; sourceTree = "<group>"; };
+		E97B41912C4D03B10053F4ED /* libabsl_cord_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cord_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_cord_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41922C4D03B10053F4ED /* libabsl_graphcycles_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_graphcycles_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_graphcycles_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41932C4D03B10053F4ED /* libabsl_exponential_biased.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_exponential_biased.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_exponential_biased.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41942C4D03B10053F4ED /* libabsl_log_internal_globals.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_globals.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_globals.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41952C4D03B10053F4ED /* libabsl_flags_marshalling.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_marshalling.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_marshalling.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41962C4D03B10053F4ED /* libabsl_die_if_null.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_die_if_null.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_die_if_null.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41972C4D03B10053F4ED /* libabsl_bad_variant_access.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_variant_access.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_bad_variant_access.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41982C4D03B10053F4ED /* libabsl_demangle_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_demangle_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_demangle_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41992C4D03B10053F4ED /* libabsl_log_severity.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_severity.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_severity.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B419A2C4D03B10053F4ED /* libabsl_status.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_status.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_status.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B419B2C4D03B10053F4ED /* libabsl_stacktrace.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_stacktrace.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_stacktrace.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B419C2C4D03B10053F4ED /* libabsl_log_sink.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_sink.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_sink.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B419D2C4D03B10053F4ED /* libabsl_cordz_info.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_info.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_cordz_info.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B419E2C4D03B10053F4ED /* libabsl_cordz_handle.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_handle.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_cordz_handle.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B419F2C4D03B10053F4ED /* libabsl_int128.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_int128.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_int128.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A02C4D03B10053F4ED /* libabsl_raw_hash_set.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_raw_hash_set.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_raw_hash_set.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A12C4D03B10053F4ED /* libabsl_crc_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_crc_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A22C4D03B10053F4ED /* libabsl_log_flags.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_flags.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_flags.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A32C4D03B10053F4ED /* libabsl_str_format_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_str_format_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_str_format_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A42C4D03B10053F4ED /* libabsl_flags_commandlineflag.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_commandlineflag.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_commandlineflag.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A52C4D03B10053F4ED /* libabsl_debugging_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_debugging_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_debugging_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A62C4D03B10053F4ED /* libabsl_log_internal_conditions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_conditions.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_conditions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A72C4D03B10053F4ED /* libabsl_random_seed_sequences.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_seed_sequences.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_seed_sequences.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A82C4D03B10053F4ED /* libabsl_bad_optional_access.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_optional_access.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_bad_optional_access.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41A92C4D03B10053F4ED /* libabsl_cordz_sample_token.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_sample_token.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_cordz_sample_token.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41AA2C4D03B10053F4ED /* libabsl_leak_check.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_leak_check.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_leak_check.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41AB2C4D03B10053F4ED /* libabsl_flags_private_handle_accessor.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_private_handle_accessor.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_private_handle_accessor.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41AC2C4D03B10053F4ED /* libabsl_examine_stack.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_examine_stack.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_examine_stack.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41AD2C4D03B10053F4ED /* libabsl_flags_usage.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_usage.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_usage.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41AE2C4D03B10053F4ED /* libabsl_log_initialize.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_initialize.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_initialize.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41AF2C4D03B10053F4ED /* libabsl_random_internal_randen.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_randen.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B02C4D03B10053F4ED /* libabsl_statusor.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_statusor.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_statusor.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B12C4D03B10053F4ED /* libabsl_vlog_config_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_vlog_config_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_vlog_config_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B22C4D03B10053F4ED /* libabsl_flags_config.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_config.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_config.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B32C4D03B10053F4ED /* libabsl_log_entry.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_entry.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_entry.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B42C4D03B10053F4ED /* libabsl_strerror.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strerror.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_strerror.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B52C4D03B10053F4ED /* libabsl_flags_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B62C4D03B10053F4ED /* libabsl_string_view.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_string_view.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_string_view.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B72C4D03B10053F4ED /* libabsl_flags_usage_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_usage_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_usage_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B82C4D03B10053F4ED /* libabsl_log_internal_fnmatch.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_fnmatch.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_fnmatch.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41B92C4D03B10053F4ED /* libabsl_kernel_timeout_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_kernel_timeout_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_kernel_timeout_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41BA2C4D03B20053F4ED /* libabsl_flags_program_name.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_program_name.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_program_name.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41BB2C4D03B20053F4ED /* libabsl_civil_time.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_civil_time.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_civil_time.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41BC2C4D03B20053F4ED /* libabsl_city.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_city.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_city.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41BD2C4D03B20053F4ED /* libabsl_cordz_functions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cordz_functions.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_cordz_functions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41BE2C4D03B20053F4ED /* libabsl_log_internal_nullguard.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_nullguard.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_nullguard.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41BF2C4D03B20053F4ED /* libabsl_log_internal_check_op.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_check_op.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_check_op.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C02C4D03B20053F4ED /* libabsl_malloc_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_malloc_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_malloc_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C12C4D03B20053F4ED /* libabsl_crc_cpu_detect.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_cpu_detect.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_crc_cpu_detect.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C22C4D03B20053F4ED /* libabsl_raw_logging_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_raw_logging_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_raw_logging_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C32C4D03B20053F4ED /* libabsl_scoped_mock_log.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_scoped_mock_log.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_scoped_mock_log.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C42C4D03B20053F4ED /* libabsl_throw_delegate.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_throw_delegate.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_throw_delegate.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C52C4D03B20053F4ED /* libabsl_scoped_set_env.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_scoped_set_env.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_scoped_set_env.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C62C4D03B20053F4ED /* libabsl_bad_any_cast_impl.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_bad_any_cast_impl.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_bad_any_cast_impl.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C72C4D03B20053F4ED /* libabsl_random_seed_gen_exception.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_seed_gen_exception.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_seed_gen_exception.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C82C4D03B20053F4ED /* libabsl_failure_signal_handler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_failure_signal_handler.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_failure_signal_handler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41C92C4D03B20053F4ED /* libabsl_hashtablez_sampler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_hashtablez_sampler.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_hashtablez_sampler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41CA2C4D03B20053F4ED /* libabsl_crc32c.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc32c.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_crc32c.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41CB2C4D03B20053F4ED /* libabsl_periodic_sampler.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_periodic_sampler.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_periodic_sampler.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41CC2C4D03B20053F4ED /* libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41CD2C4D03B20053F4ED /* libabsl_symbolize.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_symbolize.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_symbolize.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41CE2C4D03B20053F4ED /* libabsl_time_zone.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_time_zone.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_time_zone.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41CF2C4D03B20053F4ED /* libabsl_flags_commandlineflag_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_commandlineflag_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_commandlineflag_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D02C4D03B20053F4ED /* libabsl_log_internal_log_sink_set.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_log_sink_set.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_log_sink_set.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D12C4D03B20053F4ED /* libabsl_log_internal_proto.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_proto.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_proto.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D22C4D03B20053F4ED /* libabsl_spinlock_wait.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_spinlock_wait.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_spinlock_wait.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D32C4D03B20053F4ED /* libabsl_synchronization.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_synchronization.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_synchronization.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D42C4D03B20053F4ED /* libabsl_cord.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_cord.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_cord.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D52C4D03B20053F4ED /* libabsl_flags_parse.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_parse.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_parse.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D62C4D03B20053F4ED /* libabsl_log_globals.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_globals.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_globals.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D72C4D03B20053F4ED /* libabsl_random_internal_distribution_test_util.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_distribution_test_util.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_distribution_test_util.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D82C4D03B20053F4ED /* libabsl_random_internal_randen_hwaes.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_hwaes.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_randen_hwaes.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41D92C4D03B20053F4ED /* libabsl_strings_internal.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strings_internal.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_strings_internal.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41DA2C4D03B20053F4ED /* libabsl_crc_cord_state.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_crc_cord_state.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_crc_cord_state.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41DB2C4D03B20053F4ED /* libabsl_strings.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_strings.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_strings.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41DC2C4D03B20053F4ED /* libabsl_log_internal_format.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_format.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_format.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41DD2C4D03B20053F4ED /* libabsl_hash.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_hash.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_hash.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41DE2C4D03B20053F4ED /* libabsl_random_internal_platform.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_platform.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_platform.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41DF2C4D03B20053F4ED /* libabsl_random_distributions.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_distributions.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_distributions.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E02C4D03B20053F4ED /* libabsl_flags_reflection.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_flags_reflection.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_flags_reflection.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E12C4D03B20053F4ED /* libabsl_low_level_hash.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_low_level_hash.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_low_level_hash.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E22C4D03B20053F4ED /* libabsl_random_internal_pool_urbg.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_pool_urbg.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_pool_urbg.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E32C4D03B20053F4ED /* libabsl_base.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_base.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_base.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E42C4D03B20053F4ED /* libabsl_random_internal_seed_material.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_seed_material.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_seed_material.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E52C4D03B20053F4ED /* libabsl_log_internal_message.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_log_internal_message.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_log_internal_message.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E62C4D03B20053F4ED /* libabsl_random_internal_randen_slow.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_random_internal_randen_slow.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_random_internal_randen_slow.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B41E72C4D03B20053F4ED /* libabsl_time.2401.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libabsl_time.2401.0.0.dylib; path = ../../../../../opt/homebrew/Cellar/abseil/20240116.2/lib/libabsl_time.2401.0.0.dylib; sourceTree = "<group>"; };
+		E97B42962C4D05050053F4ED /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				578B52A2182A296200820C5F /* libCommand Line Utilities.a in Frameworks */,
-				57A56493182AE9CA00E33C65 /* libprotobuf.a in Frameworks */,
-				57282FCD1824C36900C52849 /* Foundation.framework in Frameworks */,
+				E97B40792C4CF4150053F4ED /* ProtoDump.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +406,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57356582182B460A00B5EC66 /* XCTest.framework in Frameworks */,
-				5735659A182B480500B5EC66 /* libprotobuf.a in Frameworks */,
+				E97B40742C4CF3490053F4ED /* ProtoDump.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9405EB12C4CF13800598CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +423,7 @@
 		57282FC01824C36900C52849 = {
 			isa = PBXGroup;
 			children = (
+				E9405EB52C4CF13800598CE8 /* ProtoDump */,
 				57282FCE1824C36900C52849 /* proto-dump */,
 				57356583182B460A00B5EC66 /* ProtoDumpUnitTests */,
 				57294CC21824E2850080F265 /* Externals */,
@@ -131,6 +437,7 @@
 			children = (
 				57282FC91824C36900C52849 /* proto-dump */,
 				57356580182B460A00B5EC66 /* ProtoDumpUnitTests.xctest */,
+				E9405EB42C4CF13800598CE8 /* ProtoDump.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +445,270 @@
 		57282FCB1824C36900C52849 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E97B41C62C4D03B20053F4ED /* libabsl_bad_any_cast_impl.2401.0.0.dylib */,
+				E97B41A82C4D03B10053F4ED /* libabsl_bad_optional_access.2401.0.0.dylib */,
+				E97B41972C4D03B10053F4ED /* libabsl_bad_variant_access.2401.0.0.dylib */,
+				E97B41E32C4D03B20053F4ED /* libabsl_base.2401.0.0.dylib */,
+				E97B41BC2C4D03B20053F4ED /* libabsl_city.2401.0.0.dylib */,
+				E97B41BB2C4D03B20053F4ED /* libabsl_civil_time.2401.0.0.dylib */,
+				E97B41912C4D03B10053F4ED /* libabsl_cord_internal.2401.0.0.dylib */,
+				E97B41D42C4D03B20053F4ED /* libabsl_cord.2401.0.0.dylib */,
+				E97B41BD2C4D03B20053F4ED /* libabsl_cordz_functions.2401.0.0.dylib */,
+				E97B419E2C4D03B10053F4ED /* libabsl_cordz_handle.2401.0.0.dylib */,
+				E97B419D2C4D03B10053F4ED /* libabsl_cordz_info.2401.0.0.dylib */,
+				E97B41A92C4D03B10053F4ED /* libabsl_cordz_sample_token.2401.0.0.dylib */,
+				E97B41DA2C4D03B20053F4ED /* libabsl_crc_cord_state.2401.0.0.dylib */,
+				E97B41C12C4D03B20053F4ED /* libabsl_crc_cpu_detect.2401.0.0.dylib */,
+				E97B41A12C4D03B10053F4ED /* libabsl_crc_internal.2401.0.0.dylib */,
+				E97B41CA2C4D03B20053F4ED /* libabsl_crc32c.2401.0.0.dylib */,
+				E97B41A52C4D03B10053F4ED /* libabsl_debugging_internal.2401.0.0.dylib */,
+				E97B41982C4D03B10053F4ED /* libabsl_demangle_internal.2401.0.0.dylib */,
+				E97B41962C4D03B10053F4ED /* libabsl_die_if_null.2401.0.0.dylib */,
+				E97B41AC2C4D03B10053F4ED /* libabsl_examine_stack.2401.0.0.dylib */,
+				E97B41932C4D03B10053F4ED /* libabsl_exponential_biased.2401.0.0.dylib */,
+				E97B41C82C4D03B20053F4ED /* libabsl_failure_signal_handler.2401.0.0.dylib */,
+				E97B41CF2C4D03B20053F4ED /* libabsl_flags_commandlineflag_internal.2401.0.0.dylib */,
+				E97B41A42C4D03B10053F4ED /* libabsl_flags_commandlineflag.2401.0.0.dylib */,
+				E97B41B22C4D03B10053F4ED /* libabsl_flags_config.2401.0.0.dylib */,
+				E97B41B52C4D03B10053F4ED /* libabsl_flags_internal.2401.0.0.dylib */,
+				E97B41952C4D03B10053F4ED /* libabsl_flags_marshalling.2401.0.0.dylib */,
+				E97B41D52C4D03B20053F4ED /* libabsl_flags_parse.2401.0.0.dylib */,
+				E97B41AB2C4D03B10053F4ED /* libabsl_flags_private_handle_accessor.2401.0.0.dylib */,
+				E97B41BA2C4D03B20053F4ED /* libabsl_flags_program_name.2401.0.0.dylib */,
+				E97B41E02C4D03B20053F4ED /* libabsl_flags_reflection.2401.0.0.dylib */,
+				E97B41B72C4D03B10053F4ED /* libabsl_flags_usage_internal.2401.0.0.dylib */,
+				E97B41AD2C4D03B10053F4ED /* libabsl_flags_usage.2401.0.0.dylib */,
+				E97B41922C4D03B10053F4ED /* libabsl_graphcycles_internal.2401.0.0.dylib */,
+				E97B41DD2C4D03B20053F4ED /* libabsl_hash.2401.0.0.dylib */,
+				E97B41C92C4D03B20053F4ED /* libabsl_hashtablez_sampler.2401.0.0.dylib */,
+				E97B419F2C4D03B10053F4ED /* libabsl_int128.2401.0.0.dylib */,
+				E97B41B92C4D03B10053F4ED /* libabsl_kernel_timeout_internal.2401.0.0.dylib */,
+				E97B41AA2C4D03B10053F4ED /* libabsl_leak_check.2401.0.0.dylib */,
+				E97B41B32C4D03B10053F4ED /* libabsl_log_entry.2401.0.0.dylib */,
+				E97B41A22C4D03B10053F4ED /* libabsl_log_flags.2401.0.0.dylib */,
+				E97B41D62C4D03B20053F4ED /* libabsl_log_globals.2401.0.0.dylib */,
+				E97B41AE2C4D03B10053F4ED /* libabsl_log_initialize.2401.0.0.dylib */,
+				E97B41BF2C4D03B20053F4ED /* libabsl_log_internal_check_op.2401.0.0.dylib */,
+				E97B41A62C4D03B10053F4ED /* libabsl_log_internal_conditions.2401.0.0.dylib */,
+				E97B41B82C4D03B10053F4ED /* libabsl_log_internal_fnmatch.2401.0.0.dylib */,
+				E97B41DC2C4D03B20053F4ED /* libabsl_log_internal_format.2401.0.0.dylib */,
+				E97B41942C4D03B10053F4ED /* libabsl_log_internal_globals.2401.0.0.dylib */,
+				E97B41D02C4D03B20053F4ED /* libabsl_log_internal_log_sink_set.2401.0.0.dylib */,
+				E97B41E52C4D03B20053F4ED /* libabsl_log_internal_message.2401.0.0.dylib */,
+				E97B41BE2C4D03B20053F4ED /* libabsl_log_internal_nullguard.2401.0.0.dylib */,
+				E97B41D12C4D03B20053F4ED /* libabsl_log_internal_proto.2401.0.0.dylib */,
+				E97B41992C4D03B10053F4ED /* libabsl_log_severity.2401.0.0.dylib */,
+				E97B419C2C4D03B10053F4ED /* libabsl_log_sink.2401.0.0.dylib */,
+				E97B41E12C4D03B20053F4ED /* libabsl_low_level_hash.2401.0.0.dylib */,
+				E97B41C02C4D03B20053F4ED /* libabsl_malloc_internal.2401.0.0.dylib */,
+				E97B41CB2C4D03B20053F4ED /* libabsl_periodic_sampler.2401.0.0.dylib */,
+				E97B41DF2C4D03B20053F4ED /* libabsl_random_distributions.2401.0.0.dylib */,
+				E97B41D72C4D03B20053F4ED /* libabsl_random_internal_distribution_test_util.2401.0.0.dylib */,
+				E97B41DE2C4D03B20053F4ED /* libabsl_random_internal_platform.2401.0.0.dylib */,
+				E97B41E22C4D03B20053F4ED /* libabsl_random_internal_pool_urbg.2401.0.0.dylib */,
+				E97B41CC2C4D03B20053F4ED /* libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib */,
+				E97B41D82C4D03B20053F4ED /* libabsl_random_internal_randen_hwaes.2401.0.0.dylib */,
+				E97B41E62C4D03B20053F4ED /* libabsl_random_internal_randen_slow.2401.0.0.dylib */,
+				E97B41AF2C4D03B10053F4ED /* libabsl_random_internal_randen.2401.0.0.dylib */,
+				E97B41E42C4D03B20053F4ED /* libabsl_random_internal_seed_material.2401.0.0.dylib */,
+				E97B41C72C4D03B20053F4ED /* libabsl_random_seed_gen_exception.2401.0.0.dylib */,
+				E97B41A72C4D03B10053F4ED /* libabsl_random_seed_sequences.2401.0.0.dylib */,
+				E97B41A02C4D03B10053F4ED /* libabsl_raw_hash_set.2401.0.0.dylib */,
+				E97B41C22C4D03B20053F4ED /* libabsl_raw_logging_internal.2401.0.0.dylib */,
+				E97B41C32C4D03B20053F4ED /* libabsl_scoped_mock_log.2401.0.0.dylib */,
+				E97B41C52C4D03B20053F4ED /* libabsl_scoped_set_env.2401.0.0.dylib */,
+				E97B41D22C4D03B20053F4ED /* libabsl_spinlock_wait.2401.0.0.dylib */,
+				E97B419B2C4D03B10053F4ED /* libabsl_stacktrace.2401.0.0.dylib */,
+				E97B419A2C4D03B10053F4ED /* libabsl_status.2401.0.0.dylib */,
+				E97B41B02C4D03B10053F4ED /* libabsl_statusor.2401.0.0.dylib */,
+				E97B41A32C4D03B10053F4ED /* libabsl_str_format_internal.2401.0.0.dylib */,
+				E97B41B42C4D03B10053F4ED /* libabsl_strerror.2401.0.0.dylib */,
+				E97B41B62C4D03B10053F4ED /* libabsl_string_view.2401.0.0.dylib */,
+				E97B41D92C4D03B20053F4ED /* libabsl_strings_internal.2401.0.0.dylib */,
+				E97B41DB2C4D03B20053F4ED /* libabsl_strings.2401.0.0.dylib */,
+				E97B41CD2C4D03B20053F4ED /* libabsl_symbolize.2401.0.0.dylib */,
+				E97B41D32C4D03B20053F4ED /* libabsl_synchronization.2401.0.0.dylib */,
+				E97B41C42C4D03B20053F4ED /* libabsl_throw_delegate.2401.0.0.dylib */,
+				E97B41CE2C4D03B20053F4ED /* libabsl_time_zone.2401.0.0.dylib */,
+				E97B41E72C4D03B20053F4ED /* libabsl_time.2401.0.0.dylib */,
+				E97B41B12C4D03B10053F4ED /* libabsl_vlog_config_internal.2401.0.0.dylib */,
+				E97B418D2C4D03280053F4ED /* libprotobuf.27.1.0.dylib */,
+				E9405D032C4CE21000598CE8 /* libabsl_bad_any_cast_impl.2401.0.0.dylib */,
+				E9405D352C4CE21100598CE8 /* libabsl_bad_optional_access.2401.0.0.dylib */,
+				E97B40CE2C4CFFE20053F4ED /* libabsl_bad_any_cast_impl.2401.0.0.dylib */,
+				E97B40D82C4CFFE20053F4ED /* libabsl_bad_optional_access.2401.0.0.dylib */,
+				E9405CF42C4CE21000598CE8 /* libabsl_bad_variant_access.2401.0.0.dylib */,
+				E9405D052C4CE21000598CE8 /* libabsl_base.2401.0.0.dylib */,
+				E97B40C42C4CFFE20053F4ED /* libabsl_bad_variant_access.2401.0.0.dylib */,
+				E97B40D42C4CFFE20053F4ED /* libabsl_base.2401.0.0.dylib */,
+				E9405D122C4CE21000598CE8 /* libabsl_city.2401.0.0.dylib */,
+				E9405D102C4CE21000598CE8 /* libabsl_civil_time.2401.0.0.dylib */,
+				E97B40BF2C4CFFE20053F4ED /* libabsl_city.2401.0.0.dylib */,
+				E97B40D72C4CFFE20053F4ED /* libabsl_civil_time.2401.0.0.dylib */,
+				E9405CF52C4CE21000598CE8 /* libabsl_cord_internal.2401.0.0.dylib */,
+				E9405D042C4CE21000598CE8 /* libabsl_cord.2401.0.0.dylib */,
+				E97B40B02C4CFFE10053F4ED /* libabsl_cord_internal.2401.0.0.dylib */,
+				E97B40CF2C4CFFE20053F4ED /* libabsl_cord.2401.0.0.dylib */,
+				E9405D2E2C4CE21100598CE8 /* libabsl_cordz_functions.2401.0.0.dylib */,
+				E9405CFB2C4CE21000598CE8 /* libabsl_cordz_handle.2401.0.0.dylib */,
+				E97B40A82C4CFFE10053F4ED /* libabsl_cordz_handle.2401.0.0.dylib */,
+				E9405D022C4CE21000598CE8 /* libabsl_cordz_info.2401.0.0.dylib */,
+				E9405D292C4CE21100598CE8 /* libabsl_cordz_sample_token.2401.0.0.dylib */,
+				E9405D272C4CE21100598CE8 /* libabsl_crc_cord_state.2401.0.0.dylib */,
+				E97B40AD2C4CFFE10053F4ED /* libabsl_cordz_sample_token.2401.0.0.dylib */,
+				E97B40B62C4CFFE10053F4ED /* libabsl_crc_cord_state.2401.0.0.dylib */,
+				E9405D492C4CE21100598CE8 /* libabsl_crc_cpu_detect.2401.0.0.dylib */,
+				E97B40962C4CFFE10053F4ED /* libabsl_cordz_functions.2401.0.0.dylib */,
+				E97B40A52C4CFFE10053F4ED /* libabsl_cordz_info.2401.0.0.dylib */,
+				E97B40AB2C4CFFE10053F4ED /* libabsl_crc_cpu_detect.2401.0.0.dylib */,
+				E9405D2A2C4CE21100598CE8 /* libabsl_crc_internal.2401.0.0.dylib */,
+				E9405D452C4CE21100598CE8 /* libabsl_crc32c.2401.0.0.dylib */,
+				E97B408D2C4CFFE10053F4ED /* libabsl_crc_internal.2401.0.0.dylib */,
+				E97B40972C4CFFE10053F4ED /* libabsl_crc32c.2401.0.0.dylib */,
+				E9405D1E2C4CE21100598CE8 /* libabsl_debugging_internal.2401.0.0.dylib */,
+				E9405D1A2C4CE21000598CE8 /* libabsl_demangle_internal.2401.0.0.dylib */,
+				E97B40D52C4CFFE20053F4ED /* libabsl_demangle_internal.2401.0.0.dylib */,
+				E9405D2B2C4CE21100598CE8 /* libabsl_die_if_null.2401.0.0.dylib */,
+				E9405D1D2C4CE21000598CE8 /* libabsl_examine_stack.2401.0.0.dylib */,
+				E97B40B82C4CFFE10053F4ED /* libabsl_die_if_null.2401.0.0.dylib */,
+				E97B40D62C4CFFE20053F4ED /* libabsl_examine_stack.2401.0.0.dylib */,
+				E9405D372C4CE21100598CE8 /* libabsl_exponential_biased.2401.0.0.dylib */,
+				E97B40AA2C4CFFE10053F4ED /* libabsl_exponential_biased.2401.0.0.dylib */,
+				E9405CFE2C4CE21000598CE8 /* libabsl_failure_signal_handler.2401.0.0.dylib */,
+				E97B40A22C4CFFE10053F4ED /* libabsl_failure_signal_handler.2401.0.0.dylib */,
+				E9405D212C4CE21100598CE8 /* libabsl_flags_commandlineflag_internal.2401.0.0.dylib */,
+				E9405D0C2C4CE21000598CE8 /* libabsl_flags_commandlineflag.2401.0.0.dylib */,
+				E97B40C12C4CFFE20053F4ED /* libabsl_flags_commandlineflag.2401.0.0.dylib */,
+				E9405D3E2C4CE21100598CE8 /* libabsl_flags_config.2401.0.0.dylib */,
+				E9405D482C4CE21100598CE8 /* libabsl_flags_internal.2401.0.0.dylib */,
+				E97B409A2C4CFFE10053F4ED /* libabsl_flags_commandlineflag_internal.2401.0.0.dylib */,
+				E97B40AC2C4CFFE10053F4ED /* libabsl_flags_config.2401.0.0.dylib */,
+				E97B40C32C4CFFE20053F4ED /* libabsl_flags_internal.2401.0.0.dylib */,
+				E9405D342C4CE21100598CE8 /* libabsl_flags_marshalling.2401.0.0.dylib */,
+				E9405D3C2C4CE21100598CE8 /* libabsl_flags_parse.2401.0.0.dylib */,
+				E97B40A42C4CFFE10053F4ED /* libabsl_flags_parse.2401.0.0.dylib */,
+				E9405D0E2C4CE21000598CE8 /* libabsl_flags_private_handle_accessor.2401.0.0.dylib */,
+				E97B408B2C4CFFE10053F4ED /* libabsl_debugging_internal.2401.0.0.dylib */,
+				E97B40922C4CFFE10053F4ED /* libabsl_flags_marshalling.2401.0.0.dylib */,
+				E97B409E2C4CFFE10053F4ED /* libabsl_flags_private_handle_accessor.2401.0.0.dylib */,
+				E9405D302C4CE21100598CE8 /* libabsl_flags_program_name.2401.0.0.dylib */,
+				E9405D112C4CE21000598CE8 /* libabsl_flags_reflection.2401.0.0.dylib */,
+				E9405D312C4CE21100598CE8 /* libabsl_flags_usage_internal.2401.0.0.dylib */,
+				E97B40AE2C4CFFE10053F4ED /* libabsl_flags_reflection.2401.0.0.dylib */,
+				E97B40CA2C4CFFE20053F4ED /* libabsl_flags_usage_internal.2401.0.0.dylib */,
+				E9405D232C4CE21100598CE8 /* libabsl_flags_usage.2401.0.0.dylib */,
+				E9405D382C4CE21100598CE8 /* libabsl_graphcycles_internal.2401.0.0.dylib */,
+				E97B40BB2C4CFFE20053F4ED /* libabsl_graphcycles_internal.2401.0.0.dylib */,
+				E9405D2D2C4CE21100598CE8 /* libabsl_hash.2401.0.0.dylib */,
+				E9405CF62C4CE21000598CE8 /* libabsl_hashtablez_sampler.2401.0.0.dylib */,
+				E97B40C82C4CFFE20053F4ED /* libabsl_hashtablez_sampler.2401.0.0.dylib */,
+				E9405CFF2C4CE21000598CE8 /* libabsl_int128.2401.0.0.dylib */,
+				E97B40A92C4CFFE10053F4ED /* libabsl_flags_usage.2401.0.0.dylib */,
+				E97B40B92C4CFFE10053F4ED /* libabsl_hash.2401.0.0.dylib */,
+				E97B40C72C4CFFE20053F4ED /* libabsl_int128.2401.0.0.dylib */,
+				E9405D3B2C4CE21100598CE8 /* libabsl_kernel_timeout_internal.2401.0.0.dylib */,
+				E97B40A32C4CFFE10053F4ED /* libabsl_kernel_timeout_internal.2401.0.0.dylib */,
+				E9405D0D2C4CE21000598CE8 /* libabsl_leak_check.2401.0.0.dylib */,
+				E9405D392C4CE21100598CE8 /* libabsl_log_entry.2401.0.0.dylib */,
+				E9405D2F2C4CE21100598CE8 /* libabsl_log_flags.2401.0.0.dylib */,
+				E9405D282C4CE21100598CE8 /* libabsl_log_globals.2401.0.0.dylib */,
+				E97B40AF2C4CFFE10053F4ED /* libabsl_log_flags.2401.0.0.dylib */,
+				E97B40CC2C4CFFE20053F4ED /* libabsl_log_globals.2401.0.0.dylib */,
+				E9405CFD2C4CE21000598CE8 /* libabsl_log_initialize.2401.0.0.dylib */,
+				E97B408C2C4CFFE10053F4ED /* libabsl_leak_check.2401.0.0.dylib */,
+				E97B40942C4CFFE10053F4ED /* libabsl_log_entry.2401.0.0.dylib */,
+				E97B409B2C4CFFE10053F4ED /* libabsl_log_initialize.2401.0.0.dylib */,
+				E9405CF92C4CE21000598CE8 /* libabsl_log_internal_check_op.2401.0.0.dylib */,
+				E9405D2C2C4CE21100598CE8 /* libabsl_log_internal_conditions.2401.0.0.dylib */,
+				E9405D3A2C4CE21100598CE8 /* libabsl_log_internal_fnmatch.2401.0.0.dylib */,
+				E9405D252C4CE21100598CE8 /* libabsl_log_internal_format.2401.0.0.dylib */,
+				E97B40C02C4CFFE20053F4ED /* libabsl_log_internal_fnmatch.2401.0.0.dylib */,
+				E97B40D02C4CFFE20053F4ED /* libabsl_log_internal_format.2401.0.0.dylib */,
+				E9405D442C4CE21100598CE8 /* libabsl_log_internal_globals.2401.0.0.dylib */,
+				E97B40B72C4CFFE10053F4ED /* libabsl_log_internal_conditions.2401.0.0.dylib */,
+				E97B40BC2C4CFFE20053F4ED /* libabsl_log_internal_globals.2401.0.0.dylib */,
+				E9405D192C4CE21000598CE8 /* libabsl_log_internal_log_sink_set.2401.0.0.dylib */,
+				E97B40B12C4CFFE10053F4ED /* libabsl_log_internal_log_sink_set.2401.0.0.dylib */,
+				E9405D182C4CE21000598CE8 /* libabsl_log_internal_message.2401.0.0.dylib */,
+				E97B40952C4CFFE10053F4ED /* libabsl_log_internal_message.2401.0.0.dylib */,
+				E9405D402C4CE21100598CE8 /* libabsl_log_internal_nullguard.2401.0.0.dylib */,
+				E97B40902C4CFFE10053F4ED /* libabsl_log_internal_nullguard.2401.0.0.dylib */,
+				E9405D062C4CE21000598CE8 /* libabsl_log_internal_proto.2401.0.0.dylib */,
+				E9405CF72C4CE21000598CE8 /* libabsl_log_severity.2401.0.0.dylib */,
+				E9405D072C4CE21000598CE8 /* libabsl_log_sink.2401.0.0.dylib */,
+				E97B40BD2C4CFFE20053F4ED /* libabsl_log_severity.2401.0.0.dylib */,
+				E97B40CD2C4CFFE20053F4ED /* libabsl_log_sink.2401.0.0.dylib */,
+				E9405CF82C4CE21000598CE8 /* libabsl_low_level_hash.2401.0.0.dylib */,
+				E9405D162C4CE21000598CE8 /* libabsl_malloc_internal.2401.0.0.dylib */,
+				E97B40872C4CFFE10053F4ED /* libabsl_log_internal_check_op.2401.0.0.dylib */,
+				E97B408F2C4CFFE10053F4ED /* libabsl_log_internal_proto.2401.0.0.dylib */,
+				E97B409C2C4CFFE10053F4ED /* libabsl_low_level_hash.2401.0.0.dylib */,
+				E97B40B22C4CFFE10053F4ED /* libabsl_malloc_internal.2401.0.0.dylib */,
+				E9405D082C4CE21000598CE8 /* libabsl_periodic_sampler.2401.0.0.dylib */,
+				E9405CF32C4CE21000598CE8 /* libabsl_random_distributions.2401.0.0.dylib */,
+				E97B40A02C4CFFE10053F4ED /* libabsl_random_distributions.2401.0.0.dylib */,
+				E9405D412C4CE21100598CE8 /* libabsl_random_internal_distribution_test_util.2401.0.0.dylib */,
+				E9405D002C4CE21000598CE8 /* libabsl_random_internal_platform.2401.0.0.dylib */,
+				E9405D172C4CE21000598CE8 /* libabsl_random_internal_pool_urbg.2401.0.0.dylib */,
+				E97B40C62C4CFFE20053F4ED /* libabsl_random_internal_pool_urbg.2401.0.0.dylib */,
+				E9405CFA2C4CE21000598CE8 /* libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib */,
+				E97B40B32C4CFFE10053F4ED /* libabsl_random_internal_platform.2401.0.0.dylib */,
+				E97B40BE2C4CFFE20053F4ED /* libabsl_random_internal_randen_hwaes_impl.2401.0.0.dylib */,
+				E9405D242C4CE21100598CE8 /* libabsl_random_internal_randen_hwaes.2401.0.0.dylib */,
+				E9405D262C4CE21100598CE8 /* libabsl_random_internal_randen_slow.2401.0.0.dylib */,
+				E97B40C92C4CFFE20053F4ED /* libabsl_random_internal_randen_slow.2401.0.0.dylib */,
+				E9405D0B2C4CE21000598CE8 /* libabsl_random_internal_randen.2401.0.0.dylib */,
+				E97B40A72C4CFFE10053F4ED /* libabsl_random_internal_randen_hwaes.2401.0.0.dylib */,
+				E97B40B52C4CFFE10053F4ED /* libabsl_random_internal_randen.2401.0.0.dylib */,
+				E9405D142C4CE21000598CE8 /* libabsl_random_internal_seed_material.2401.0.0.dylib */,
+				E9405D1B2C4CE21000598CE8 /* libabsl_random_seed_gen_exception.2401.0.0.dylib */,
+				E9405D3D2C4CE21100598CE8 /* libabsl_random_seed_sequences.2401.0.0.dylib */,
+				E9405D3F2C4CE21100598CE8 /* libabsl_raw_hash_set.2401.0.0.dylib */,
+				E97B408E2C4CFFE10053F4ED /* libabsl_random_internal_distribution_test_util.2401.0.0.dylib */,
+				E97B409D2C4CFFE10053F4ED /* libabsl_random_internal_seed_material.2401.0.0.dylib */,
+				E97B40A62C4CFFE10053F4ED /* libabsl_random_seed_gen_exception.2401.0.0.dylib */,
+				E97B40C22C4CFFE20053F4ED /* libabsl_random_seed_sequences.2401.0.0.dylib */,
+				E97B40C52C4CFFE20053F4ED /* libabsl_raw_hash_set.2401.0.0.dylib */,
+				E9405D132C4CE21000598CE8 /* libabsl_raw_logging_internal.2401.0.0.dylib */,
+				E9405D422C4CE21100598CE8 /* libabsl_scoped_mock_log.2401.0.0.dylib */,
+				E97B40A12C4CFFE10053F4ED /* libabsl_scoped_mock_log.2401.0.0.dylib */,
+				E9405D462C4CE21100598CE8 /* libabsl_scoped_set_env.2401.0.0.dylib */,
+				E97B40982C4CFFE10053F4ED /* libabsl_scoped_set_env.2401.0.0.dylib */,
+				E9405D012C4CE21000598CE8 /* libabsl_spinlock_wait.2401.0.0.dylib */,
+				E9405D222C4CE21100598CE8 /* libabsl_stacktrace.2401.0.0.dylib */,
+				E9405D332C4CE21100598CE8 /* libabsl_status.2401.0.0.dylib */,
+				E9405D472C4CE21100598CE8 /* libabsl_statusor.2401.0.0.dylib */,
+				E97B40BA2C4CFFE20053F4ED /* libabsl_statusor.2401.0.0.dylib */,
+				E9405D092C4CE21000598CE8 /* libabsl_str_format_internal.2401.0.0.dylib */,
+				E9405D1C2C4CE21000598CE8 /* libabsl_strerror.2401.0.0.dylib */,
+				E97B40D12C4CFFE20053F4ED /* libabsl_strerror.2401.0.0.dylib */,
+				E9405D152C4CE21000598CE8 /* libabsl_string_view.2401.0.0.dylib */,
+				E9405CFC2C4CE21000598CE8 /* libabsl_strings_internal.2401.0.0.dylib */,
+				E97B40D92C4CFFE20053F4ED /* libabsl_strings_internal.2401.0.0.dylib */,
+				E9405D362C4CE21100598CE8 /* libabsl_strings.2401.0.0.dylib */,
+				E9405D322C4CE21100598CE8 /* libabsl_symbolize.2401.0.0.dylib */,
+				E97B40DA2C4CFFE20053F4ED /* libabsl_symbolize.2401.0.0.dylib */,
+				E9405D0A2C4CE21000598CE8 /* libabsl_synchronization.2401.0.0.dylib */,
+				E97B40932C4CFFE10053F4ED /* libabsl_stacktrace.2401.0.0.dylib */,
+				E97B40992C4CFFE10053F4ED /* libabsl_status.2401.0.0.dylib */,
+				E97B409F2C4CFFE10053F4ED /* libabsl_str_format_internal.2401.0.0.dylib */,
+				E97B40B42C4CFFE10053F4ED /* libabsl_string_view.2401.0.0.dylib */,
+				E97B40CB2C4CFFE20053F4ED /* libabsl_strings.2401.0.0.dylib */,
+				E97B40D22C4CFFE20053F4ED /* libabsl_synchronization.2401.0.0.dylib */,
+				E9405D432C4CE21100598CE8 /* libabsl_throw_delegate.2401.0.0.dylib */,
+				E9405D1F2C4CE21100598CE8 /* libabsl_time_zone.2401.0.0.dylib */,
+				E97B40D32C4CFFE20053F4ED /* libabsl_time_zone.2401.0.0.dylib */,
+				E9405D0F2C4CE21000598CE8 /* libabsl_time.2401.0.0.dylib */,
+				E97B40912C4CFFE10053F4ED /* libabsl_time.2401.0.0.dylib */,
+				E9405D202C4CE21100598CE8 /* libabsl_vlog_config_internal.2401.0.0.dylib */,
+				E97B408A2C4CFFE10053F4ED /* libabsl_vlog_config_internal.2401.0.0.dylib */,
+				E9405CEF2C4CDFB300598CE8 /* libprotobuf.dylib */,
+				E97B40832C4CFFE10053F4ED /* libabsl_flags_program_name.2401.0.0.dylib */,
+				E97B40842C4CFFE10053F4ED /* libabsl_periodic_sampler.2401.0.0.dylib */,
+				E97B40852C4CFFE10053F4ED /* libabsl_raw_logging_internal.2401.0.0.dylib */,
+				E97B40862C4CFFE10053F4ED /* libabsl_spinlock_wait.2401.0.0.dylib */,
+				E97B40882C4CFFE10053F4ED /* libabsl_throw_delegate.2401.0.0.dylib */,
+				E97B40892C4CFFE10053F4ED /* libprotobuf.dylib */,
 				57282FCC1824C36900C52849 /* Foundation.framework */,
 				57356581182B460A00B5EC66 /* XCTest.framework */,
 			);
@@ -147,15 +718,6 @@
 		57282FCE1824C36900C52849 /* proto-dump */ = {
 			isa = PBXGroup;
 			children = (
-				57A56496182AFA7600E33C65 /* PDDependencyProcessor.h */,
-				57A56497182AFA7600E33C65 /* PDDependencyProcessor.m */,
-				57282FDA1824CCA000C52849 /* PDProtobufInputStream.h */,
-				57282FDB1824CCA000C52849 /* PDProtobufInputStream.mm */,
-				57A5649C182B070D00E33C65 /* PDProtoFile+Private.h */,
-				57294CBC1824D8230080F265 /* PDProtoFile.h */,
-				57294CBD1824D8230080F265 /* PDProtoFile.mm */,
-				57294CBF1824DA250080F265 /* PDProtoFileExtractor.h */,
-				57294CC01824DA250080F265 /* PDProtoFileExtractor.m */,
 				57282FCF1824C36900C52849 /* main.m */,
 				57282FD11824C36900C52849 /* Supporting Files */,
 			);
@@ -174,7 +736,6 @@
 			isa = PBXGroup;
 			children = (
 				57A56494182AE9D400E33C65 /* CLU */,
-				57A56495182AE9E800E33C65 /* Protobuf */,
 			);
 			name = Externals;
 			sourceTree = "<group>";
@@ -182,6 +743,7 @@
 		57356583182B460A00B5EC66 /* ProtoDumpUnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				E9405DF92C4CE43100598CE8 /* TSPersistence */,
 				57356591182B46C800B5EC66 /* addressbook */,
 				57356589182B460A00B5EC66 /* ProtoDumpUnitTests.m */,
 				57356584182B460A00B5EC66 /* Supporting Files */,
@@ -227,15 +789,49 @@
 			name = CLU;
 			sourceTree = "<group>";
 		};
-		57A56495182AE9E800E33C65 /* Protobuf */ = {
+		E9405DF92C4CE43100598CE8 /* TSPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				57A56492182AE9CA00E33C65 /* libprotobuf.a */,
+				E9405DF82C4CE43100598CE8 /* TSPersistence.input */,
 			);
-			name = Protobuf;
+			path = TSPersistence;
+			sourceTree = "<group>";
+		};
+		E9405EB52C4CF13800598CE8 /* ProtoDump */ = {
+			isa = PBXGroup;
+			children = (
+				E9405EB62C4CF13800598CE8 /* ProtoDump.h */,
+				57A56496182AFA7600E33C65 /* PDDependencyProcessor.h */,
+				57A56497182AFA7600E33C65 /* PDDependencyProcessor.m */,
+				57282FDA1824CCA000C52849 /* PDProtobufInputStream.h */,
+				57282FDB1824CCA000C52849 /* PDProtobufInputStream.mm */,
+				57294CBC1824D8230080F265 /* PDProtoFile.h */,
+				57A5649C182B070D00E33C65 /* PDProtoFile+Private.h */,
+				57294CBD1824D8230080F265 /* PDProtoFile.mm */,
+				57294CBF1824DA250080F265 /* PDProtoFileExtractor.h */,
+				57294CC01824DA250080F265 /* PDProtoFileExtractor.m */,
+				E97B42962C4D05050053F4ED /* Config.xcconfig */,
+			);
+			path = ProtoDump;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E9405EAF2C4CF13800598CE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9405EBB2C4CF14000598CE8 /* PDProtobufInputStream.h in Headers */,
+				E9405EBC2C4CF14000598CE8 /* PDProtoFile+Private.h in Headers */,
+				E9405EBD2C4CF14000598CE8 /* PDProtoFile.h in Headers */,
+				E9405EBE2C4CF14000598CE8 /* PDProtoFileExtractor.h in Headers */,
+				E9405EBF2C4CF14000598CE8 /* PDDependencyProcessor.h in Headers */,
+				E9405EB72C4CF13800598CE8 /* ProtoDump.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		57282FC81824C36900C52849 /* proto-dump */ = {
@@ -245,11 +841,13 @@
 				57282FC51824C36900C52849 /* Sources */,
 				57282FC61824C36900C52849 /* Frameworks */,
 				57282FC71824C36900C52849 /* CopyFiles */,
+				E97B407D2C4CF4150053F4ED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				578B52A1182A295D00820C5F /* PBXTargetDependency */,
+				E97B407C2C4CF4150053F4ED /* PBXTargetDependency */,
 			);
 			name = "proto-dump";
 			productName = "proto-dump";
@@ -263,16 +861,35 @@
 				5735657C182B460A00B5EC66 /* Sources */,
 				5735657D182B460A00B5EC66 /* Frameworks */,
 				5735657E182B460A00B5EC66 /* Resources */,
+				E97B40782C4CF3490053F4ED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5735658D182B460A00B5EC66 /* PBXTargetDependency */,
+				E97B40772C4CF3490053F4ED /* PBXTargetDependency */,
 			);
 			name = ProtoDumpUnitTests;
 			productName = ProtoDumpUnitTests;
 			productReference = 57356580182B460A00B5EC66 /* ProtoDumpUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9405EB32C4CF13800598CE8 /* ProtoDump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9405EB82C4CF13800598CE8 /* Build configuration list for PBXNativeTarget "ProtoDump" */;
+			buildPhases = (
+				E9405EAF2C4CF13800598CE8 /* Headers */,
+				E9405EB02C4CF13800598CE8 /* Sources */,
+				E9405EB12C4CF13800598CE8 /* Frameworks */,
+				E9405EB22C4CF13800598CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtoDump;
+			productName = ProtoDump;
+			productReference = E9405EB42C4CF13800598CE8 /* ProtoDump.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -286,6 +903,10 @@
 					5735657F182B460A00B5EC66 = {
 						TestTargetID = 57282FC81824C36900C52849;
 					};
+					E9405EB32C4CF13800598CE8 = {
+						CreatedOnToolsVersion = 15.4;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 57282FC41824C36900C52849 /* Build configuration list for PBXProject "proto-dump" */;
@@ -293,6 +914,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 57282FC01824C36900C52849;
@@ -306,8 +928,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				57282FC81824C36900C52849 /* proto-dump */,
+				E9405EB32C4CF13800598CE8 /* ProtoDump */,
 				5735657F182B460A00B5EC66 /* ProtoDumpUnitTests */,
+				57282FC81824C36900C52849 /* proto-dump */,
 			);
 		};
 /* End PBXProject section */
@@ -327,9 +950,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97B407E2C4CF47B0053F4ED /* TSPersistence.input in Resources */,
 				57356594182B46C800B5EC66 /* addressbook.input in Resources */,
 				57356595182B46C800B5EC66 /* addressbook.proto in Resources */,
 				57356588182B460A00B5EC66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9405EB22C4CF13800598CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97B42972C4D05050053F4ED /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,11 +972,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57294CBE1824D8230080F265 /* PDProtoFile.mm in Sources */,
-				57A56498182AFA7600E33C65 /* PDDependencyProcessor.m in Sources */,
 				57282FD01824C36900C52849 /* main.m in Sources */,
-				57282FDC1824CCA000C52849 /* PDProtobufInputStream.mm in Sources */,
-				57294CC11824DA250080F265 /* PDProtoFileExtractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,26 +980,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57356596182B472400B5EC66 /* PDDependencyProcessor.m in Sources */,
-				57356597182B472400B5EC66 /* PDProtobufInputStream.mm in Sources */,
-				57356598182B472400B5EC66 /* PDProtoFile.mm in Sources */,
-				57356599182B472400B5EC66 /* PDProtoFileExtractor.m in Sources */,
 				5735658A182B460A00B5EC66 /* ProtoDumpUnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9405EB02C4CF13800598CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9405EC02C4CF14000598CE8 /* PDDependencyProcessor.m in Sources */,
+				E9405EC12C4CF14000598CE8 /* PDProtoFile.mm in Sources */,
+				E9405EC22C4CF14000598CE8 /* PDProtoFileExtractor.m in Sources */,
+				E9405EC32C4CF14000598CE8 /* PDProtobufInputStream.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5735658D182B460A00B5EC66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 57282FC81824C36900C52849 /* proto-dump */;
-			targetProxy = 5735658C182B460A00B5EC66 /* PBXContainerItemProxy */;
-		};
 		578B52A1182A295D00820C5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Command Line Utilities";
 			targetProxy = 578B52A0182A295D00820C5F /* PBXContainerItemProxy */;
+		};
+		E97B40772C4CF3490053F4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9405EB32C4CF13800598CE8 /* ProtoDump */;
+			targetProxy = E97B40762C4CF3490053F4ED /* PBXContainerItemProxy */;
+		};
+		E97B407C2C4CF4150053F4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9405EB32C4CF13800598CE8 /* ProtoDump */;
+			targetProxy = E97B407B2C4CF4150053F4ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -458,6 +1098,7 @@
 		57282FD81824C36900C52849 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "proto-dump/proto-dump-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -467,7 +1108,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Externals/Protobuf/prebuilt/lib",
+					"$(PROJECT_DIR)/Externals/Protobuf/prebuilt/lib",
+					"/opt/homebrew/Cellar/abseil/20240116.2/lib/**",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -475,6 +1119,7 @@
 		57282FD91824C36900C52849 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "proto-dump/proto-dump-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -484,7 +1129,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Externals/Protobuf/prebuilt/lib",
+					"$(PROJECT_DIR)/Externals/Protobuf/prebuilt/lib",
+					"/opt/homebrew/Cellar/abseil/20240116.2/lib/**",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -492,6 +1140,7 @@
 		5735658E182B460A00B5EC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -510,7 +1159,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Externals/Protobuf/prebuilt/lib",
+					"$(PROJECT_DIR)/ProtoDumpUnitTests/TSPersistence",
+					"$(PROJECT_DIR)/Externals/Protobuf/prebuilt/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -519,6 +1171,7 @@
 		5735658F182B460A00B5EC66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -533,9 +1186,133 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Externals/Protobuf/prebuilt/lib",
+					"$(PROJECT_DIR)/ProtoDumpUnitTests/TSPersistence",
+					"$(PROJECT_DIR)/Externals/Protobuf/prebuilt/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E9405EB92C4CF13800598CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97B42962C4D05050053F4ED /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Sean Patrick O'Brien. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "/opt/homebrew/lib/**";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JH.ProtoDump;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9405EBA2C4CF13800598CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97B42962C4D05050053F4ED /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Sean Patrick O'Brien. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "/opt/homebrew/lib/**";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JH.ProtoDump;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -565,6 +1342,15 @@
 			buildConfigurations = (
 				5735658E182B460A00B5EC66 /* Debug */,
 				5735658F182B460A00B5EC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9405EB82C4CF13800598CE8 /* Build configuration list for PBXNativeTarget "ProtoDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9405EB92C4CF13800598CE8 /* Debug */,
+				E9405EBA2C4CF13800598CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
