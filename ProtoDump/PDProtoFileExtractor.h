@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_HEADER_AUDIT_BEGIN(nullability, sendability)
+
 @class PDProtoFile;
 
 extern NSString * const PDProtoFileExtractorErrorDomain;
@@ -28,4 +30,8 @@ NS_ERROR_ENUM(PDProtoFileExtractorErrorDomain) {
 // Finds Protobuf descriptors in the data and returns them as instances of PDProtoFile.
 + (NSArray<PDProtoFile *> *)extractProtoFilesFromData:(NSData *)data error:(NSError **)errorPtr;
 
++ (BOOL)writeProtoFilesFromData:(NSData *)data toPath:(NSString *)outputPath error:(NSError * _Nullable *)error;
+
 @end
+
+NS_HEADER_AUDIT_END(nullability, sendability)

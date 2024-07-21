@@ -32,12 +32,9 @@
 - (void)testExtractingAddressBook
 {
 	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-	NSString *inputDataPath = [bundle pathForResource:@"TSPersistence" ofType:@"input"];
-	NSString *expectedProtoPath = [bundle pathForResource:@"TSPersistence" ofType:@"proto"];
+	NSString *inputDataPath = @"/Volumes/FrameworkLab/Numbers/Frameworks/TSUtility.framework/Versions/A/TSUtility";
 	
 	NSData *inputData = [NSData dataWithContentsOfFile:inputDataPath];
-	NSData *expectedOutputData = [NSData dataWithContentsOfFile:expectedProtoPath];
-	NSString *expectedOutputString = [[NSString alloc] initWithData:expectedOutputData encoding:NSUTF8StringEncoding];
 	
 //	XCTAssertNotNil(inputData, @"Unable to load input data");
 //	XCTAssertNotNil(expectedOutputData, @"Unable to load expected output data");
@@ -46,16 +43,18 @@
 	if (inputData == nil) {
 		return;
 	}
-	
+    NSError *error = nil;
     
+    [PDProtoFileExtractor writeProtoFilesFromData:inputData toPath:@"/Volumes/FrameworkLab/Numbers/Proto" error:&error];
     
+    NSLog(@"%@", error);
     
-	NSError *error = nil;
-	NSArray *protoFiles = [PDProtoFileExtractor extractProtoFilesFromData:inputData error:&error];
-    for (PDProtoFile *file in protoFiles) {
-        NSLog(@"Path: %@", file.path);
-        NSLog(@"%@", file.source);
-    }
+//	NSError *error = nil;
+//	NSArray *protoFiles = [PDProtoFileExtractor extractProtoFilesFromData:inputData error:&error];
+//    for (PDProtoFile *file in protoFiles) {
+//        NSLog(@"Path: %@", file.path);
+//        NSLog(@"%@", file.source);
+//    }
 //	XCTAssertNotNil(protoFiles, @"Unable to extract Protobuf descriptors: %@", error);
 //	
 //	XCTAssert(protoFiles.count == 1, @"Unexpected number of protobuf descriptors");

@@ -16,7 +16,7 @@ NSString * const PDProtoFileExtractorErrorDomain = @"PDProtoFileExtractorErrorDo
 
 @implementation PDProtoFileExtractor
 
-+ (NSArray *)extractUnsortedProtoFilesFromData:(NSData *)data
++ (NSArray<PDProtoFile *> *)extractUnsortedProtoFilesFromData:(NSData *)data
 {
 	if (data == nil) {
 		return nil;
@@ -90,7 +90,7 @@ NSString * const PDProtoFileExtractorErrorDomain = @"PDProtoFileExtractorErrorDo
 	return protos;
 }
 
-+ (NSArray *)extractProtoFilesFromData:(NSData *)data error:(NSError **)errorPtr
++ (NSArray<PDProtoFile *> *)extractProtoFilesFromData:(NSData *)data error:(NSError **)errorPtr
 {
     
 	NSArray *unsortedProtoFiles = [PDProtoFileExtractor extractUnsortedProtoFilesFromData:data];
@@ -100,7 +100,7 @@ NSString * const PDProtoFileExtractorErrorDomain = @"PDProtoFileExtractorErrorDo
 			(*errorPtr) = [NSError errorWithDomain:PDProtoFileExtractorErrorDomain code:PDProtoFileExtractorErrorDataContainsNoProtobufDescriptors userInfo:userInfo];
 		}
 
-		return nil;
+		return @[];
 	}
 	
 	// Sort the files according to their dependencies.
@@ -111,7 +111,7 @@ NSString * const PDProtoFileExtractorErrorDomain = @"PDProtoFileExtractorErrorDo
 			(*errorPtr) = [NSError errorWithDomain:PDProtoFileExtractorErrorDomain code:PDProtoFileExtractorErrorDependencySortingFailed userInfo:userInfo];
 		}
 
-		return nil;
+		return @[];
 	}
 	
 	// Generate sources.
@@ -121,11 +121,28 @@ NSString * const PDProtoFileExtractorErrorDomain = @"PDProtoFileExtractorErrorDo
 				NSDictionary *userInfo = @{ NSLocalizedDescriptionKey: [NSString stringWithFormat:@"Failed to generate source for \u201C%@\u201D.", protoFile.path] };
 				(*errorPtr) = [NSError errorWithDomain:PDProtoFileExtractorErrorDomain code:PDProtoFileExtractorErrorSourceGenerationFailed userInfo:userInfo];
 			}
-			return nil;
+			return @[];
 		}
 	}
 	
 	return sortedProtoFiles;
+}
+
++ (BOOL)writeProtoFilesFromData:(NSData *)data toPath:(NSString *)outputPath error:(NSError * _Nullable __autoreleasing *)error {
+    NSArray<PDProtoFile *> *protoFiles = [self extractProtoFilesFromData:data error:error];
+    if (protoFiles.count == 0) {
+        return NO;
+    }
+    for (PDProtoFile *protoFile in protoFiles) {
+        if ([protoFile.path containsString:@"google/protobuf/descriptor.proto"]) {
+            continue;
+        }
+        NSString *writeToFilePath = [outputPath stringByAppendingPathComponent:protoFile.path];
+        if (![protoFile.source writeToFile:writeToFilePath atomically:YES encoding:NSUTF8StringEncoding error:error]) {
+            return NO;
+        }
+    }
+    return YES;
 }
 
 @end
